@@ -315,7 +315,8 @@ app.post('/register', (req, res, next) => {
 
         let new_user = new user_model({
             name: user_name,
-            listat: []
+            listat: [],
+            tuotteet: []
         });
 
         new_user.save().then(() => {
