@@ -332,7 +332,7 @@ app.use((req, res, next) => {
     `);
 });
 
-//Shutdown server CTRL + C in terminal
+
 const mongoose_url = 'mongodb+srv://db-user:YYkTrG6hBWAphHYA@cluster0-izlph.mongodb.net/test?retryWrites=true&w=majority';
 
 mongoose.connect(mongoose_url, {
