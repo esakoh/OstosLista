@@ -1,0 +1,30 @@
+{
+  "name": "ostoslista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"&& exit 1",
+    "start": "node ostoslista.js",
+    "start-dev": "nodemon ostoslista.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esakoh/OstosLista.git"
+  },
+  "keywords": [
+    "y"
+  ],
+  "author": "y",
+  "license": "ISC",
+  "homepage": "https://github.com/esakoh/OstosLista.git",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
